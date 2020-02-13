@@ -346,7 +346,7 @@ p.ingredienmodal {
         display: none;
     }
 }
-@media (min-width: 321px) and (max-width: 375px){
+@media (min-width: 320px) and (max-width: 375px){
     .list-unstyled li {
         border: none !important;
     }  
@@ -478,6 +478,12 @@ p.ingredienmodal {
     .phone {
         margin-right: 80px ;
     }
+    .navbar {
+        width: 765px !important;
+    }
+    .navbar-nav {
+        margin-left: -10% !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -493,7 +499,7 @@ p.ingredienmodal {
         margin-left: 80px;
     }
     html {
-        width: 1087px;
+        width: 100%;
         
     }
     #hat {
@@ -511,6 +517,15 @@ p.ingredienmodal {
     }
     .phonetxt {
         right: 90px !important;
+    }
+    .navbar {
+        width: 1023px;
+    }
+    .navbar-nav {
+        margin-left: -10%;
+    }
+    .btn1 {
+        margin-left: 15px;
     }
 }    
 @media (min-width: 1025px) and (max-width: 1440px){
